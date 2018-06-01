@@ -18,7 +18,11 @@ function nowServing(line) {
     console.log("There is nobody waiting to be served!")
     return "There is nobody waiting to be served!"
   } else {
+<<<<<<< HEAD
     return "Currently serving " + line.shift() +".";
+=======
+    return "Currently serving ${name}." + line.shift();
+>>>>>>> 2bc4582e6ce096cbc63ceed6ef02943365555c05
   }
 }
 
